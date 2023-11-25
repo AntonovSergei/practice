@@ -1,0 +1,42 @@
+.news {
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+.newsitem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.descreption {
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.source {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.source a {
+  text-decoration: none;
+}
+
+.img {
+  padding: 5px;
+  width: 30%;
+  height: 30%;
+}
