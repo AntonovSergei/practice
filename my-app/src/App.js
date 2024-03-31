@@ -1,12 +1,14 @@
 import "./App.css";
-// import InputOnChange from './Component/InputOnChange/InputOnChange';
-// import News from "./practice/News/News.js";
+import TodoList from "./practice/AllApp/TodoAppWithCategory/TodoList";
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      {/* <InputOnChange />  */}
-      {/* <News /> */}
+      <TodoList />
     </div>
   );
 }

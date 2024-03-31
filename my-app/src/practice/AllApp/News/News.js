@@ -1,5 +1,5 @@
-import NewsItem from '../../Component/NewsItem/NewsItem.js';
-import { news } from '../../data/news.js';
+import NewsItem from '../../../Component/NewsItem/NewsItem.js';
+import { news } from '../../../data/news.js';
 
 // my-app/src/Component/NewsItem/NewsItem.js
 // /Users/sergeiantonov/git/practice/my-app/src/Component/NewsItem/NewsItem.js

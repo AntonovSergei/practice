@@ -1,0 +1,26 @@
+.notification {
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.notification div {
+  padding-top: 3px;
+}
+
+.success {
+  color: green;
+  border: 2px solid green;
+}
+
+.warning {
+  border: 2px solid orange;
+  color: orange;
+}
+
+.error {
+  color: red;
+  border: 2px solid red;
+}

@@ -1,0 +1,73 @@
+.cost-accounting {
+  margin: 50px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+p {
+  font-weight:bold;
+  font-size: large;
+}
+
+.cost-accounting__output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.output__category p {
+  padding: 5px;
+}
+
+.cost-accounting__addCategory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.cost-accounting__addCategory p {
+  font-size: x-large;
+}
+
+
+.category_icon {
+  display: flex;
+  gap: 25px;
+  list-style-type: none
+}
+
+.category_icon li {
+  font-size: x-large;
+}
+
+.cost-accounting__addAccounting {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.cost-accounting__buttons {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 105px;
+}
+
+.button {
+  padding: 5px 10px;
+}
+
+.button_clear {
+  font-weight: 600;
+  border: 2px solid black;
+  padding: 3px 5px;
+}
+

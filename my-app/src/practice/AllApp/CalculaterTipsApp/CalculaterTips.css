@@ -1,0 +1,57 @@
+.calculaterTips {
+    margin: 20px auto;
+    padding: 25px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    border-radius: 5px;
+    border: 2px solid black
+}
+
+.dataInput {
+    width: 50%;
+    border: 2px solid orange;
+}
+
+input {
+    padding: 5px;
+    color: rgb(27, 57, 61);
+    font-size: 20px;
+    width: 100%;
+    text-align: end;
+    background-color: rgb(240, 247, 249);
+    border: none;
+}
+
+.dataOutput {
+    width: 50%;
+    border: 2px solid red;
+}
+
+.percents div {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.percents div input {
+    width: 31%;
+}
+
+.button {
+    width: 31%;
+    color: white;
+    padding: 7px 25px;
+    background-color: rgb(27, 57, 61);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: orange;
+}

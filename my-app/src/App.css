@@ -1,1 +1,67 @@
+.App {
+  font-family: sans-serif;
+}
 
+/* .star{
+  border: none;
+  background-color: white;
+  font-size: 30px;
+}
+
+.active {
+  color: orange;
+} */
+
+/* .star:hover {
+  color: orange;
+} */
+
+/* .active {
+    background-color: rgb(199, 221, 208);
+  } */
+
+/* .main {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.filter {
+  display: flex;
+  gap: 50px;
+}
+
+
+
+.figure {
+  margin: 20px auto;
+}
+
+.figures-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.green {
+  background-color: green;
+} */

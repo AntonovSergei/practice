@@ -1,0 +1,26 @@
+.pagination {
+  margin: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  color: blue;
+}
+
+.back .forward {
+  background-color: orange;
+}
+
+.numberList {
+  background-color: rgb(175, 215,251);
+}
+
+.active {
+  background-color: orange;
+}
+

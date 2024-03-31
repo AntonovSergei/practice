@@ -1,0 +1,7 @@
+.todo p {
+  display: inline-block;
+}
+
+.checked {
+    text-decoration: line-through;
+}
