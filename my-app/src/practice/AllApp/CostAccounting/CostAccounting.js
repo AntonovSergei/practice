@@ -88,12 +88,12 @@ console.log(typeof(selectedId))
   const handleClickAdd = () => {
     const updateCategories = [...categories].map((category) =>{
       console.log(selectedId, category.id)
-      if(selectedId === category.id) {
+      if(+selectedId === +category.id) {
         return { ...category, amount: category.amount + addAmount };
       }
       return category;
     }
-      // selectedId === category.id
+      // +selectedId === +category.id
       //   ? { ...category, amount: category.amount + addAmount }
       //   : category
     );
