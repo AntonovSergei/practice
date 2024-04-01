@@ -12,7 +12,7 @@
   flex-direction: column;
   gap: 5px;
   width: 450px;
-  margin: 200px ;
+  margin: 200px;
 }
 
 .todo-list__category {
@@ -35,22 +35,26 @@ button {
   flex-grow: 1;
   text-align: center;
   border-radius: 7px;
-  border: 2px solid rgb(46,100,172);
+  border: 2px solid rgb(46, 100, 172);
   background-color: white;
+}
+
+.active {
+  background-color: rgb(246, 203, 202);
+  color: rgb(159, 67, 64);
+  border: 2px solid rgb(159, 67, 64);
 }
 
 input {
   width: 67%;
   font-size: x-large;
   border-radius: 7px;
-  border: 2px solid rgb(159,67,64);
+  border: 2px solid rgb(159, 67, 64);
 }
-
-
 
 .todo-list__button_todo_add {
   width: 30%;
-  color: rgb(159,67,64);
-  border: 2px solid rgb(159,67,64);
-  background-color: rgb(246,203,202);
+  color: rgb(159, 67, 64);
+  border: 2px solid rgb(159, 67, 64);
+  background-color: rgb(246, 203, 202);
 }
